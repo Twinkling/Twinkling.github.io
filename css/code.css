@@ -1,0 +1,211 @@
+figure::after {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  font-weight: normal;
+  font-size: 12px;
+  color: hsl(0, 100%, 50%);
+  pointer-events: none;
+}
+
+figure:hover::after {
+  opacity: 0;
+}
+ 
+figure.apache::after,
+figure.apacheconf::after {
+  content: 'apache';
+}
+
+figure.bash::after,
+figure.shell::after,
+figure.sh::after,
+figure.zsh::after {
+  content: 'bash';
+}
+
+figure.basic::after {
+  content: 'basic';
+}
+
+figure.cs::after {
+  content: 'cs';
+}
+
+figure.csharp::after {
+  content: 'csharp';
+}
+
+figure.c::after {
+  content: 'c';
+}
+
+figure.cc::after {
+  content: 'cc';
+}
+
+figure.cpp::after {
+  content: 'cpp';
+}
+figure.h::after {
+  content: 'h';
+}
+
+figure.hpp::after {
+  content: 'hpp';
+}
+ 
+figure.css::after {
+  content: 'css';
+}
+
+figure.dos::after {
+  content: 'dos';
+}
+
+figure.bat::after {
+  content: 'bat';
+}
+
+figure.cmd::after {
+  content: 'cmd';
+}
+
+figure.docker::after,
+figure.dockerfile::after {
+  content: 'docker';
+}
+
+figure.go::after,
+figure.golang::after {
+  content: 'go';
+}
+
+figure.html::after {
+  content: 'html';
+}
+
+figure.xml::after {
+  content: 'xml';
+}
+
+figure.xhtml::after {
+  content: 'xhtml';
+}
+
+figure.http::after {
+  content: 'http';
+}
+
+figure.https::after {
+  content: 'https';
+}
+
+figure.json::after {
+  content: 'json';
+}
+ 
+figure.java::after {
+  content: 'java';
+}
+
+figure.jsp::after {
+  content: 'jsp';
+}
+
+figure.js::after,
+figure.javascript::after {
+  content: 'js';
+}
+
+figure.jsx::after {
+  content: 'jsx';
+}
+
+figure.less::after {
+  content: 'less';
+}
+
+figure.lisp::after {
+  content: 'lisp';
+}
+
+figure.lua::after {
+  content: 'lua';
+}
+
+figure.makefile::after {
+  content: 'makefile';
+}
+
+figure.mk::after {
+  content: 'mk';
+}
+
+figure.markdown::after {
+  content: 'markdown';
+}
+
+figure.md::after {
+  content: 'md';
+}
+
+figure.matlab::after {
+  content: 'matlab';
+}
+
+figure.nginx::after,
+figure.nginxconf::after {
+  content: 'nginx';
+}
+ 
+figure.php::after {
+  content: 'php';
+}
+
+figure.perl::after {
+  content: 'perl';
+}
+
+figure.py::after,
+figure.python::after {
+  content: 'python';
+}
+
+figure.ruby::after {
+  content: 'ruby';
+}
+
+figure.scss::after {
+  content: 'scss';
+}
+
+figure.sql::after {
+  content: 'sql';
+}
+
+figure.styl::after,
+figure.stylus::after {
+  content: 'stylus';
+}
+
+figure.swift::after {
+  content: 'swift';
+}
+
+figure.typescript::after,
+figure.ts::after {
+  content: 'ts';
+}
+
+figure.vb::after {
+  content: 'vb';
+}
+
+figure.x86asm::after {
+  content: 'x86asm';
+}
+
+figure.yaml::after {
+  content: 'yaml';
+}
